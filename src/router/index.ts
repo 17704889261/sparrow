@@ -3,6 +3,7 @@ import type { RouteConfig } from 'vue-router'
 import VueRouter from 'vue-router'
 
 import testModule from './modules/test'
+import sparrowModule from './modules/sparrow'
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,7 @@ export const routes: Array<RouteConfig> = [
     name: 'Login',
     component: () => import('@/views/login/index.vue')
   },
+  ...sparrowModule,
   {
     path: '/',
     name: 'Index',
