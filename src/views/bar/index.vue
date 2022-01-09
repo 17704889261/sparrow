@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>这是一个画布页面</h1>
     <CanvasOne></CanvasOne>
     <CanvasTwo></CanvasTwo>
   </div>
