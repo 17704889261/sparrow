@@ -9,12 +9,32 @@ export interface Menu {
 }
 
 export function getMenus() {
-  const menus = routes
-  menus.map(item => {
-    if (!item.children) {
-      item.children = []
-    }
-    return item
+  // 深拷贝router内容，避免缓存问题
+  const obj = JSON.stringify(routes)
+  const menus = JSON.parse(obj)
+  const res: any = []
+  menus.forEach((item: any) => {
+    res.push(eachMenu(item))
   })
-  return menus
+  return res
+}
+
+function eachMenu(item: any) {
+  const parent: any = item
+
+  if (!item.children) {
+    return parent
+  }
+
+  const menuRes: any[] = []
+  item.children.forEach((ele: any) => {
+    const ktem = eachMenu(ele)
+    const obj = {
+      ...ktem,
+      path: `${parent.path}/${ktem.path}`
+    }
+    menuRes.push(obj)
+  })
+  parent.children = menuRes
+  return parent
 }

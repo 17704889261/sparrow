@@ -22,7 +22,12 @@
       CanvasTwo
     }
   })
-  export default class extends Vue {}
+  export default class extends Vue {
+    mounted() {
+      console.log(' router ====> ', this.$router)
+      console.log(' route ====> ', this.$route)
+    }
+  }
 </script>
 
 <style scoped>
