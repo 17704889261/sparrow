@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>这是一个画布页面</h1>
     <CanvasOne></CanvasOne>
     <CanvasTwo></CanvasTwo>
   </div>
@@ -21,7 +22,12 @@
       CanvasTwo
     }
   })
-  export default class extends Vue {}
+  export default class extends Vue {
+    mounted() {
+      console.log(' router ====> ', this.$router)
+      console.log(' route ====> ', this.$route)
+    }
+  }
 </script>
 
 <style scoped>
