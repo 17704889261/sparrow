@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/config.js"
   },
   {
-    "revision": "5de731bdeea113c4e7e2",
+    "revision": "6c02af524ea41d27ecb6",
     "url": "/sparrow/css/app.ac85c854.css"
   },
   {
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "964034fcbb9300ebea91be3bf22768f6",
+    "revision": "876531e532a8498e364979a413b4cab8",
     "url": "/sparrow/index.html"
   },
   {
-    "revision": "5de731bdeea113c4e7e2",
-    "url": "/sparrow/js/app.e3a9e38d.js"
+    "revision": "6c02af524ea41d27ecb6",
+    "url": "/sparrow/js/app.5592b798.js"
   },
   {
     "revision": "c821082e413e42bf998e",

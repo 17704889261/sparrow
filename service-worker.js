@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sparrow/precache-manifest.e916accecac72366a5e2137e4eb275b1.js"
+  "/sparrow/precache-manifest.db19e23ea0f0ff249b2d12d071c040be.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sparrow"});
