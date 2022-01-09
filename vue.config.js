@@ -22,7 +22,7 @@ const APP_PKG = {
 
 module.exports = {
   // 公共路径
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue3-ts-template/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/sparrow/' : '/',
   // 是否在开发环境下通过 eslint-loader 在每次保存时 lint 代码
   lintOnSave: true,
   // 生产环境的 source map
