@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/config.js"
   },
   {
-    "revision": "565f548932f1e0699eb1",
+    "revision": "d1103cfa33969be0cb5f",
     "url": "/sparrow/css/app.ac85c854.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/css/chunk-2a718238.8c79b790.css"
   },
   {
-    "revision": "b96d16622b16232bc2af",
-    "url": "/sparrow/css/chunk-79a03a7a.85d072ab.css"
+    "revision": "bc8b8f484703790d5bf0",
+    "url": "/sparrow/css/chunk-75de6276.7a28810b.css"
   },
   {
-    "revision": "32d81c3ce70de402f3ad",
-    "url": "/sparrow/css/chunk-97ece7fe.74ec08d8.css"
+    "revision": "b96d16622b16232bc2af",
+    "url": "/sparrow/css/chunk-79a03a7a.85d072ab.css"
   },
   {
     "revision": "ce23362440d750c484fc",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "379639e9e133b6c2f720c0d282595924",
+    "revision": "af718085ebe6467ae3a324ecddf11f9d",
     "url": "/sparrow/index.html"
   },
   {
-    "revision": "565f548932f1e0699eb1",
-    "url": "/sparrow/js/app.82a29518.js"
+    "revision": "d1103cfa33969be0cb5f",
+    "url": "/sparrow/js/app.267d5175.js"
   },
   {
     "revision": "3c9b88079421d5c22bde",
@@ -64,12 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/js/chunk-2d0e95df.79b6d1a6.js"
   },
   {
-    "revision": "b96d16622b16232bc2af",
-    "url": "/sparrow/js/chunk-79a03a7a.5c0f6144.js"
+    "revision": "bc8b8f484703790d5bf0",
+    "url": "/sparrow/js/chunk-75de6276.51f81819.js"
   },
   {
-    "revision": "32d81c3ce70de402f3ad",
-    "url": "/sparrow/js/chunk-97ece7fe.29339eab.js"
+    "revision": "b96d16622b16232bc2af",
+    "url": "/sparrow/js/chunk-79a03a7a.5c0f6144.js"
   },
   {
     "revision": "ce23362440d750c484fc",
